@@ -1,0 +1,1 @@
+Get-AzureRmAutomationAccount -ResourceGroupName "Canales-NOVT" | Select-object ResourceGroupName, AutomationAccountName, Location | Export-Csv -Path ~/Inventario-AutomationAccounts/AutomationAccounts.csv -Encoding ascii -NoTypeInformation 
